@@ -1,0 +1,225 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.users-container {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.users-container h3 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.users-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.user {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  white-space: nowrap;
+}
+
+.input-section {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px 0;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.input-section h3 {
+  margin-bottom: 10px;
+}
+
+.add-ticket {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ticket-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add-ticket-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-ticket-button:hover {
+  background-color: #0056b3;
+}
+
+.tickets-section {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px 0;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-left: 1px solid #ccc;
+}
+
+.clear-tickets-button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #dc3545;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.clear-tickets-button:hover {
+  background-color: #c82333;
+}
+
+.tickets-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ticket {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.ticket-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.consensus-dropdown {
+  width: auto;
+  height: auto;
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.vote-buttons button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.vote-buttons button.selected {
+  background-color: #0056b3;
+}
+
+.reveal-button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.reveal-button[disabled] {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.revealed-votes {
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.votes-list {
+  margin-bottom: 10px;
+}
+
+.votes-list h4 {
+  margin-bottom: 5px;
+}
+
+.vote-item {
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.average-vote {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.average-vote h4 {
+  margin: 0;
+}
+
+.average-value {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
